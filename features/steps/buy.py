@@ -4,7 +4,7 @@ from selenium import webdriver
 
 @given('I launch browser')
 def step_impl(context):
-    #context.driver = webdriver.Chrome(executable_path="D:\Testing\Automated Testing\Frontend\Selenium\Python\Python_selenium_challenge\drivers\chromedriver.exe")
+    #context.driver = webdriver.Chrome(executable_path="D:\Testing\Automated Testing\Frontend\Selenium\Python\selenium_python_challenge\chromedriver\chromedriver.exe")
     context.driver = webdriver.Chrome()
 
 @when('I open application')
